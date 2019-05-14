@@ -6,11 +6,18 @@ setup(
     name=package_name,
     version='0.0.1',
     packages=[
-        'train',
+        'train', 'yad2k', 'yolo3', 'model_data', 'font'
     ],
+    #added
+    # include_package_data=True,
+    #package_data={'': ['FiraMono-Medium.otf']},
+    data_files=[('font', ['FiraMono-Medium.otf'])],
+    #stopadd
     py_modules=[
         'collect',
         'drive',
+        'yolo_utils',
+        'yolo',
     ],
     install_requires=['setuptools'],
     zip_safe=True,
@@ -18,12 +25,12 @@ setup(
     author_email='david.uhm@lge.com',
     maintainer='David Uhm',
     maintainer_email='david.uhm@lge.com',
-    keywords=['ROS', 
-              'ROS2', 
-              'deep learning', 
-              'lane following', 
-              'end to end', 
-              'LGSVL Simulator', 
+    keywords=['ROS',
+              'ROS2',
+              'deep learning',
+              'lane following',
+              'end to end',
+              'LGSVL Simulator',
               'Autonomous Driving'
     ],
     classifiers=[
