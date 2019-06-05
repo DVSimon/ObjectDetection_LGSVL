@@ -1,3 +1,5 @@
+## Credit
+
 Strictly for educational usage and done for CMPE 297 Autonomous Driving class.
 
 Used LGSVL lanefollowing application as a docker shell and updated existing code and ML models to perform object detection instead of lane tracking.
@@ -5,7 +7,7 @@ Used LGSVL lanefollowing application as a docker shell and updated existing code
 Credit and thanks to LG for providing this sample application as well as the LGSVL simulator that was used.
 
 
-##Object Detection
+## Object Detection
 
 * Uses YOLOv2 and Tiny YOLOv2 from Darknet converted to keras using yad2k library for object detection.
 * Takes images from LGSVL Simulator using ROS bridge to subscribe to LGSVL node from main camera.
