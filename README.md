@@ -12,7 +12,7 @@ Credit and thanks to LG for providing this sample application as well as the LGS
 * Uses YOLOv2 and Tiny YOLOv2 from Darknet converted to keras using yad2k library for object detection.
 * Takes images from LGSVL Simulator using ROS bridge to subscribe to LGSVL node from main camera.
 * Detects all objects at near real time(slow processing so images aren't smooth enough for video) in a seperate CV2 window.
-* Uses frameworks/tools like Docker, Linux, ROS, LGSVL Simulator, etc.
+* Uses frameworks/tools like Docker, Linux, ROS, LGSVL Simulator, TensorFlow, Keras, Darknet, yad2k, etc.
 * Performs live object detection on simulator feed. e.g. 
 
 ![Driving Objects Detection](https://i.imgur.com/bxeSLcI.png "Simulator Object Detection YOLO")
